@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       x:Class="GamesInfoApp.AppShell"
+       FlyoutBehavior="Locked">
+    <FlyoutItem Title="Menu">
+        <ShellContent Title="Home" ContentTemplate="{DataTemplate local:HomePage}" />
+        <ShellContent Title="Show All Games" ContentTemplate="{DataTemplate local:ShowAllGamesPage}" />
+        <ShellContent Title="Show All Players" ContentTemplate="{DataTemplate local:ShowAllPlayersPage}" />
+        <ShellContent Title="Show Games Players Play" ContentTemplate="{DataTemplate local:ShowGamesPlayersPlayPage}" />
+        <ShellContent Title="Add Player" ContentTemplate="{DataTemplate local:AddPlayerPage}" />
+        <ShellContent Title="Add Game" ContentTemplate="{DataTemplate local:AddGamePage}" />
+    </FlyoutItem>
+</Shell>
